@@ -1,3 +1,5 @@
+import 'package:cafeteria_app/models/menu_item.dart';
+
 class MenuItemDecorator implements MenuItem {
   final MenuItem menuItem;
   final String extra;
